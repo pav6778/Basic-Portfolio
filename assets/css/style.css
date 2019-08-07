@@ -34,6 +34,7 @@ header::after {
     padding: 30px;
     margin: 0;
     font-size: 28px;
+    font-weight: 600;
 }
 nav {
     float: right;
@@ -69,19 +70,21 @@ a:hover {
 }
 div#content-wrap {
     width: 900px;
-    margin: 20px auto 9em auto;
-    padding: 1em 30px 100px 30px;
+    margin:  30px auto 0 auto;
+    padding: 30px;
     background-color: white;
     border: 1px solid #dddddd;
-    overflow: auto;
 }
 h2 {
     color: #4aaaa5;
     padding-bottom: 30px;
     border-bottom: 3px solid #dddddd;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
 }
 p {
-    line-height: 1.5em;
+    line-height: 1.9em;
 }
 .portfolio_img {
     width: 200px;
@@ -149,8 +152,10 @@ input {
     box-shadow: 2px 2px 5px #4aaaa5;
 }
 
-div#Name {
+div#name {
     padding-bottom: 5px;
+    padding-top: 1em;
+
 }
 div#email {
     padding: 12px 0 5px 0;
